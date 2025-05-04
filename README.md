@@ -1,47 +1,75 @@
-# MRP_Dashboard
-# Employability Analytics Dashboard for Startups
-> A Power BI dashboard to help startup founders make informed, data-driven hiring decisions with real-time insights into job trends, salary benchmarks, skill demands, and workforce dynamics.
+# 🌟 Startup Employability Analytics Dashboard – Team 18
+
+> A Power BI Dashboard designed to help startup founders and career advisors make data-driven hiring decisions with real-time insights into job trends, salaries, skills, and qualifications.
+
+---
 
 ## 📘 Project Description
 
-Startups often struggle with hiring due to limited budgets, fast-changing markets, and a lack of clear data. This dashboard was built to empower startup founders and career advisors with actionable insights into job postings, candidate fit, salary ranges, and global hiring demand. The goal is to streamline recruitment, optimize compensation strategies, and support data-driven decision-making.
+This Employability Analytics Dashboard was developed as part of the **Master’s Research Project (MRP)** at **Saint Louis University**, under the mentorship of **Professor Maria Weber**, for the course **Visualization, Feedback, and Dissemination**.
 
-This project was developed as part of the Master's Research Project (MRP) at **Saint Louis University** under the mentorship of **Professor Maria Weber**.
+Startups often face hiring challenges like budget constraints, rapidly changing role demands, and talent shortages. This dashboard helps streamline recruitment strategies by providing:
+
+- Job market distribution by country  
+- Hiring trends over time  
+- In-demand skills and qualifications  
+- Salary benchmarks by job role and experience  
+- Candidate fit insights using real job data
+
+---
+
+## 📚 Table of Contents
+
+- [📘 Project Description](#-project-description)
+- [📊 Dashboard Preview](#-dashboard-preview)
+- [💡 Key Features](#-key-features)
+- [🗂️ Project Structure](#-project-structure)
+- [👨‍💻 How to Use & Contributors](#-how-to-use--contributors)
+- [📄 License](#-license)
+
+---
 
 ## 📊 Dashboard Preview
 
-### 🔎 Dashboard Overview
-![Overview Screenshot](dashboard.jpeg)
+### 🔹 Dashboard Overview
+![Dashboard Overview](DashboardOverview.jpeg)
 
-### 🏢 Company Insights
-![Company Insights Screenshot](insights.jpeg)
+### 🔹 Job Trends
+![Job Trends](JobTrends.jpeg)
 
-### 📈 Job Trends
-![Job Trends Screenshot](jobtrends.jpeg)
+### 🔹 Company Insights
+![Company Insights](CompanyInsights.jpeg)
 
+### 🔹 Salary Insights
+![Salary Insights](SalaryInsights.jpeg)
 
-## 📚 Table of Contents
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Contributors](#-contributors)
-- [License](#-license)
+### 🔹 Candidate Fit & Skills Match
+![Candidate Fit](CandidateFit.jpeg)
 
-## 🚀 Features
+---
 
-- 🌐 Job Distribution by Country
-- 🏢 Top Hiring Companies by Count
-- 📆 Monthly Job Postings Visualization
-- 🧠 Experience Level Distribution
-- 💼 Salary Benchmarking (Min/Max Salary)
-- 🔍 Filter by Country, Experience, Work Type, Portal
-- 📊 Work Type and Company Size Distributions
+## 💡 Key Features
 
-## 🛠 Installation
+- 🌍 Country-wise Job Distribution  
+- 🧠 Experience-Level Insights  
+- 📅 Monthly Job Postings Tracker  
+- 💰 Salary by Role & Experience  
+- 🧾 Qualification and Skill Frequency  
+- 🎛️ Slicers for dynamic filtering (country, role, work type, portal)
 
-To run the project locally:
+---
 
-```bash
-git clone https://github.com/santhoshibiradar/startup-employability-dashboard.git
-cd startup-employability-dashboard
+## 🗂️ Project Structure
+
+```plaintext
+startup-employability-dashboard/
+│
+├── PowerBI_Dashboard.pbix            # Power BI file with full dashboard
+├── README.md                         # Project documentation
+├── DashboardOverview.jpeg            # Screenshot of Dashboard Overview
+├── JobTrends.jpeg                    # Screenshot of Job Trends
+├── CompanyInsights.jpeg              # Screenshot of Company Insights
+├── SalaryInsights.jpeg               # Screenshot of Salary Insights
+├── CandidateFit.jpeg                 # Screenshot of Candidate Fit page
+└── data/
+    └── Team18_Data.xlsx              # Cleaned and validated dataset used
