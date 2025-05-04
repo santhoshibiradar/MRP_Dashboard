@@ -75,7 +75,9 @@ startup-employability-dashboard/
 └── data/
     └── Team18_Data.xlsx              # Cleaned and validated dataset used
 
-## 👨‍💻 How to Use & Contributors
+---
+
+**## 👨‍💻 How to Use & Contributors**
 
 ### 🔧 How to Use the Dashboard
 
@@ -113,3 +115,4 @@ startup-employability-dashboard/
 
 This dashboard was created exclusively for educational and academic use under the guidelines of **Saint Louis University’s ORLD 5960 – Master’s Research Project**.  
 All rights reserved © 2025 Team 18.
+
